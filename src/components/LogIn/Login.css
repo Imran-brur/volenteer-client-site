@@ -1,0 +1,29 @@
+.social-button{
+    width: 300px;
+    height: 40px;
+    background-color:white;
+    margin: 5px ;
+    border:1px solid black;
+    border-radius:20px;   
+}
+
+.social-button:focus{
+    outline: none;
+}
+
+.login{
+        margin: auto;
+        width: 38%;
+        height: 350px;
+        border: 2px solid rgb(136, 138, 136);
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+        margin-top:70px;
+        padding: 90px 0;
+      }
+
+.login-container{
+    background-color: rgb(214, 229, 231);
+    height: 750px;
+}

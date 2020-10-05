@@ -1,0 +1,22 @@
+input{
+    border-style: none;
+    border-bottom:2px solid rgb(97, 96, 96);
+    width: 400px;
+    padding:15px 15px 15px 0px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+}
+input:focus{
+    outline: none;
+}
+.register {
+    background-color: white;
+    border: 1.5px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    margin: auto;
+    width: 35%;
+    padding: 15px;
+}
+.reg {
+    width: 80%;
+}

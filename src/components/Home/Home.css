@@ -1,0 +1,17 @@
+.home-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto; 
+    padding: 20px;
+    margin-left: 90px;
+}
+h5{
+    text-align:center;
+    color: white;
+    background-color: rgb(114, 114, 231);
+}
+/* .home {
+    background-image: url('../../images/newBooks.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+   
+} */
