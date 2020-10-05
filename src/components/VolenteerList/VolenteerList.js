@@ -10,7 +10,7 @@ const VolenteerList = () => {
     const [volenteerUser, setVolenteerUser] = useState([]);
 
     useEffect(() =>{
-        fetch('http://localhost:5000/volenteers')
+        fetch('https://mighty-mesa-51953.herokuapp.com/volenteers')
         .then(res => res.json())
         .then(data =>{
             setVolenteerUser(data);
@@ -19,7 +19,7 @@ const VolenteerList = () => {
 
     const deleteVolenteer = (id) => {
         console.log(id)
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://mighty-mesa-51953.herokuapp.com/delete/${id}`,{
             method: 'DELETE'
         })
         .then( res => res.json())

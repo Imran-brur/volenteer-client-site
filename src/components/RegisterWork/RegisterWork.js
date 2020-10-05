@@ -12,7 +12,7 @@ const RegisterWork = () => {
     const [user, setUser] = useState([])
 
     useEffect(() =>{
-        fetch('http://localhost:5000/volenteerWork')
+        fetch('https://mighty-mesa-51953.herokuapp.com/volenteerWork')
         .then(res => res.json())
         .then(data => {
             setUser(data)
@@ -21,7 +21,7 @@ const RegisterWork = () => {
 
     const deleteWork = (id) => {
         console.log(id)
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://mighty-mesa-51953.herokuapp.com/delete/${id}`,{
             method: 'DELETE'
         })
         .then( res => res.json())
