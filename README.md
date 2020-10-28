@@ -1,4 +1,4 @@
-![alt text](/src/logos/Group 1329.png "Group 1329")
+![alt text](/src/logos/Group1329.png "Group 1329")
 
 [Website Link](https://volenteer-site.web.app/)
 
